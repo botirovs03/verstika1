@@ -1,0 +1,63 @@
+:root {
+    --content-margin: 10%
+}
+
+* {
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+.top-menu {
+    padding: 5px;
+    margin: 5px var(--content-margin);
+    display: flex;
+    justify-content: space-between;
+}
+.slider {
+  aspect-ratio: 1920/740;
+  padding-bottom: 60px;
+}
+
+.title {
+    margin: 10px 30%;
+    font-size: 3em;
+    text-align: center;
+}
+.sub-title {
+    margin: 10px 30%;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.anniversary {
+    padding: 10px 20px;
+    max-height: 300px;
+    aspect-ratio: 1110/300;
+    margin: auto var(--content-margin);
+    width: calc( 100% - 2 * var(--content-margin));
+    transform: translateY(-50%);
+    display: flex;
+    justify-content:space-around;
+}
+
+.anv-items {
+    width: 25%;
+    height: 100px;
+}
+.projects {
+    margin: 5px var(--content-margin);
+}
+
+.project-posts {
+    padding: 0;
+    display: flex;
+    justify-content:space-between
+}
+.projects h2 {
+    text-align: center;
+}
