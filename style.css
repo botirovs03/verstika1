@@ -53,11 +53,19 @@ body {
     margin: 5px var(--content-margin);
 }
 
+
+.projects h2 {
+    text-align: center;
+}
+
 .project-posts {
     padding: 0;
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
+    iem
 }
-.projects h2 {
-    text-align: center;
+
+.post {
+    width: 30%;
+    height: 40px;
 }
